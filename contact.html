@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Azure Resort | Contact</title>
+        <meta name="author" content="Lauren Sanders">
+        <meta name="description" content="Contact information for Azure Resort. Book your stay with us today!">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://use.typekit.net/ipd6xcv.css">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Azure Resort</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#accommodations">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="A photo of a mountain range with many tall, green trees and a creek down the center of the scene." width="1440" height="560">
+        </header>
+
+        <main>
+            <h2 id="contact-title">Contact Us</h2>
+            <section id="contact-form">
+                <div>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>Required fields marked with a *</p>
+                    <img src="images/swiss-peak.jpg" alt="Photo of a mountain covered in snow, there is a creek and trees in front of the mountain." width="350" height="455">
+                </div>
+            <div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Full Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-email">Email Address<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+                        
+                    <label for="my-phone">Phone Number<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                                        
+                        <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required>
+                        <label for="pref-email">Email</label>
+                                        
+                        <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                        <label for="pref-phone">Phone</label>
+                                        
+                    </fieldset>
+
+                    <label for="my-comments">Comments<span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2025 - Azure Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
+
+    
+
